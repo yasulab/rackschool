@@ -13,9 +13,9 @@ def read_file(filename):
     input = open(filename, "r")
     return input
 
-def main():
+def main(filename):
     read_flg = False
-    given_text = read_file("/var/tmp/learn-ruby.tmp")
+    given_text = read_file(filename)
     for i,line in enumerate(given_text):
         #print line
         if read_flg:
@@ -34,8 +34,9 @@ def main():
 
 if __name__ == "__main__":
     argv_len = len(sys.argv)
-    if not argv_len == 1:
-        print "Usage: ./learn-ruby-goto-file.py"
+    if not argv_len == 2:
+        print "Usage: ./learn-ruby-goto-file.py FILENAME"
         exit()
-    main()
+    filename = sys.argv[1]        
+    main(filename)
 

@@ -1,3 +1,3 @@
 #!/bin/sh
-python ~/bin/learn-ruby-goto-file.py > /var/tmp/learn-ruby.target
-emacs `cat /var/tmp/learn-ruby.target`
+python $RACKSCHOOL/bin/learn-ruby-goto-file.py $RACKSCHOOL/tmp/learn-ruby.tmp  > $RACKSCHOOL/tmp/learn-ruby.target
+emacs `cat $RACKSCHOOL/tmp/learn-ruby.target`

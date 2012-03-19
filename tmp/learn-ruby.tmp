@@ -1,0 +1,15 @@
+[32mAboutAsserts#test_assert_truth has expanded your awareness.[0m
+[31mAboutAsserts#test_assert_with_message has damaged your karma.[0m
+
+The Master says:
+[36m  You have not yet reached enlightenment.[0m
+[36m  You are progressing. Excellent. 1 completed.[0m
+
+The answers you seek...
+[31m  This should be true -- Please fix this[0m
+
+Please meditate on the following code:
+[31m  /Users/yohei/Dropbox/rackschool/learn-ruby/about_asserts.rb:16:in `test_assert_with_message'[0m
+
+[32mlearn the rules so you know how to break them properly[0m
+[32myour path thus far [[0m[32m.[0m[31mX[0m[36m________________________________________________[0m[32m][0m 1/280
