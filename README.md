@@ -1,4 +1,4 @@
-RackSchool - Ruby Koan on RackHub
+RackSchool - Interactive Ruby Koans on RackHub
 ========
 
 > A New Way to Learn with RackHub
@@ -21,4 +21,4 @@ Developer
 
 License
 -------
-All source included in this repository follows the license of [Ruby Koan](http://rubykoans.com/).
+All sources included in this repository follows the license of [Ruby Koans](http://rubykoans.com/).
