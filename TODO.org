@@ -1,0 +1,44 @@
+* RackSchool
+- [X] Create Account
+- [ ] Collaborator to Create Account
+- [ ] Create Account to ./learn-ruby/index.html
+- [X] install.sh
+- [X] github repo
+- [X] collect files into ./learn-ruby/
+- [ ] Demo: git clone -> install -> create account -> solve asgn -> open
+- [ ] replace output script with "tee" command.
+
+.ssh/rc -> echo $PATH -> call the command when login
+.ssh/authorized_keys -> env, command($SHELL)
+
+Slide Words
+-----------
+RackSchool
+
+スタンフォード大学　online edu -> 6,000/80,000 by Shu-san
+- Onlineのコンテンツはパネェ
+- でもOnlineだけだと継続できる人が少ない？
+-> On/Off Social Studyってどうよ？
+
+とりあえずコンテンツの的を絞って...
+
+Ruby Koan
+- コンテンツはそこそこ面白い. けど...
+
+- 環境構築面倒 -> RackHub
+- 英語読むの面倒 -> Shell
+- 一人でやるの面倒 -> Okinawa.rb (and OSSCafe?)
+-- 皆でsshしてワイワイガヤガヤ
+
+One More Thing...
+- Python製：
+-- 誰かRubyで書き換えて!!（切実）
+
+Repository
+  $ git clone git://github.com/yasulab/rackschool.git
+
+
+SSH Env Sample
+--------------
+environment="RACKHUB_USERNAME=sowawa" ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA6HutMQuoJcCLN+gYHgC+8ZczgyDGaIJkqwFeWbmrnPHHdPX3xXtdviVVT8Lq1pzCLs2rrK6fGNpAfU+sB591dzrLzdZT9u3D5kChzd93tNrLgDyU7FYXfW9evvac/NSdcY2CrvBHXsvD7hREWekjMt6UNjdmg97hBJbEHHrWi0ciH7LMQvMF+8g1aqHEFmXeHj8BriujKIz4FizLSG3ojPj6lkPdyoE0dAL+KaUif0OzB1Y9AJ0z+17IXfd2vaxwe9ZXv6RYiPKJFqf0DacBE+bmzSQUdtEwFxkPM8VPap3n+jpX7gVoqkyjYVQb7/OX6+Q9njZDPV86RPk6L/QSuQ== sowawa@sowa.local_rackhab_inserted
+environment="AAA=aaa",command="uptime; echo 'How are you? sowawa';$SHELL" ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA6HutMQuoJcCLN+gYHgC+8ZczgyDGaIJkqwFeWbmrnPHHdPX3xXtdviVVT8Lq1pzCLs2rrK6fGNpAfU+sB591dzrLzdZT9u3D5kChzd93tNrLgDyU7FYXfW9evvac/NSdcY2CrvBHXsvD7hREWekjMt6UNjdmg97hBJbEHHrWi0ciH7LMQvMF+8g1aqHEFmXeHj8BriujKIz4FizLSG3ojPj6lkPdyoE0dAL+KaUif0OzB1Y9AJ0z+17IXfd2vaxwe9ZXv6RYiPKJFqf0DacBE+bmzSQUdtEwFxkPM8VPap3n+jpX7gVoqkyjYVQb7/OX6+Q9njZDPV86RPk6L/QSuQ== sowawa@sowa.local_rackhab_inserted
