@@ -14,8 +14,10 @@ echo "Successfully installed!"
 echo "  Installed dir : $RACKSCHOOL"
 echo "  Your username : $RACKUSER"
 echo "  Your directory: $RACKSCHOOL/usr/$RACKUSER/"
+
 echo "#!/bin/sh" > $RACKSCHOOL/run
 echo "sh $RACKSCHOOL/bin/create-account.sh \$RACKUSER" >> $RACKSCHOOL/run
 echo "python $RACKSCHOOL/bin/shell.py" >> $RACKSCHOOL/run
+echo "python $RACKSCHOOL/bin/publish.py" >> $RACKSCHOOL/run
 
 chmod a+x run

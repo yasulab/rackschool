@@ -40,5 +40,5 @@ Repository
 
 SSH Env Sample
 --------------
-environment="RACKHUB_USERNAME=sowawa" ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA6HutMQuoJcCLN+gYHgC+8ZczgyDGaIJkqwFeWbmrnPHHdPX3xXtdviVVT8Lq1pzCLs2rrK6fGNpAfU+sB591dzrLzdZT9u3D5kChzd93tNrLgDyU7FYXfW9evvac/NSdcY2CrvBHXsvD7hREWekjMt6UNjdmg97hBJbEHHrWi0ciH7LMQvMF+8g1aqHEFmXeHj8BriujKIz4FizLSG3ojPj6lkPdyoE0dAL+KaUif0OzB1Y9AJ0z+17IXfd2vaxwe9ZXv6RYiPKJFqf0DacBE+bmzSQUdtEwFxkPM8VPap3n+jpX7gVoqkyjYVQb7/OX6+Q9njZDPV86RPk6L/QSuQ== sowawa@sowa.local_rackhab_inserted
-environment="AAA=aaa",command="uptime; echo 'How are you? sowawa';$SHELL" ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA6HutMQuoJcCLN+gYHgC+8ZczgyDGaIJkqwFeWbmrnPHHdPX3xXtdviVVT8Lq1pzCLs2rrK6fGNpAfU+sB591dzrLzdZT9u3D5kChzd93tNrLgDyU7FYXfW9evvac/NSdcY2CrvBHXsvD7hREWekjMt6UNjdmg97hBJbEHHrWi0ciH7LMQvMF+8g1aqHEFmXeHj8BriujKIz4FizLSG3ojPj6lkPdyoE0dAL+KaUif0OzB1Y9AJ0z+17IXfd2vaxwe9ZXv6RYiPKJFqf0DacBE+bmzSQUdtEwFxkPM8VPap3n+jpX7gVoqkyjYVQb7/OX6+Q9njZDPV86RPk6L/QSuQ== sowawa@sowa.local_rackhab_inserted
+environment="RACKHUB_USERNAME=yasulab" ssh-rsa HOGEHOGE
+environment="AAA=aaa",command="uptime; echo 'How are you, Yohei?';$SHELL" ssh-rsa FOOBAR
