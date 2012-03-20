@@ -1,0 +1,3 @@
+#!/bin/sh
+sh /Users/yohei/Dropbox/rackschool/bin/create-account.sh $RACKUSER
+python /Users/yohei/Dropbox/rackschool/bin/shell.py
