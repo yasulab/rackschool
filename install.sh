@@ -1,6 +1,6 @@
 #!/bin/sh
 export RACKSCHOOL=$PWD
-export RACKUSER=$USERNAME
+export RACKUSER=`users`
 
 #if [ -d $RACKSCHOOL/usr/$RACKUSER ]
 #then
