@@ -1,12 +1,12 @@
 #!/bin/sh
 export RACKSCHOOL=$PWD
-export RACKUSER=`users`
+export RACKUSER=$RHB_USERNAME
 
 #if [ -d $RACKSCHOOL/usr/$RACKUSER ]
 #then
 #    echo "'$RACKUSER' already exists.\n"
 #    exit 1
-#else    
+#else
 #    sh $RACKSCHOOL/bin/create-account.sh $RACKUSER
 #fi
 
@@ -14,6 +14,7 @@ echo "Successfully installed!"
 echo "  Installed dir : $RACKSCHOOL"
 echo "  Your username : $RACKUSER"
 echo "  Your directory: $RACKSCHOOL/usr/$RACKUSER/"
+echo ""
 
 echo "#!/bin/sh" > $RACKSCHOOL/run
 echo "sh $RACKSCHOOL/bin/create-account.sh \$RACKUSER" >> $RACKSCHOOL/run
