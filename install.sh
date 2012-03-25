@@ -1,8 +1,8 @@
 #!/bin/sh
 export RACKSCHOOL=$PWD
 export RACKUSER=$RHB_USERNAME
-echo "export RACKSCHOOL=$PWD" >> ~/.profile
-echo "export RACKUSER=$RHB_USERNAME" >> ~/.profile
+echo "export RACKSCHOOL=$PWD" >> ~/.bashrc
+echo "export RACKUSER=$RHB_USERNAME" >> ~/.bashrc
 
 #if [ -d $RACKSCHOOL/usr/$RACKUSER ]
 #then
