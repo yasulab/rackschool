@@ -2,7 +2,9 @@
 export RACKSCHOOL=$PWD
 export RACKUSER=$RHB_USERNAME
 echo "export RACKSCHOOL=$PWD" >> ~/.bashrc
+echo "export RACKSCHOOL=$PWD" >> ~/.zshrc
 echo "export RACKUSER=$RHB_USERNAME" >> ~/.bashrc
+echo "export RACKUSER=$RHB_USERNAME" >> ~/.zshrc
 
 #if [ -d $RACKSCHOOL/usr/$RACKUSER ]
 #then
